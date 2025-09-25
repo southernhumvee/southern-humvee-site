@@ -40,15 +40,21 @@
     ] 
   },
   {
-    "id": "blackout-4door",
-    "title": "Blackout 4\u2011Door Tactical",
-    "year": 1994,
+    "id": Desert Tan",
+    "title": "M1151A1 Slantback",
+    "year": 2008,
     "status": "Previous Restoration",
-    "summary": "Matte tactical finish, recovery points, hardware upgrades.",
-    "hero": "/images/build2-01.jpeg",
+    "summary": "Matte tactical finish, W style bumper MRAP light kit.",
+    "hero": "/images/IMG_1145.jpeg",
     "gallery": [
-      "/images/build2-01.jpeg",
-      "/images/services-1.jpeg"
+      "/images/IMG_0993.jpeg",
+      "/images/IMG_0995.jpeg",
+      "/images/IMG_0998.jpeg",
+      "/images/IMG_1128.jpeg",
+      "/images/IMG_1141.jpeg",
+      "/images/IMG_1074.jpeg",
+      "/images/IMG_1028.jpeg",
+      "/images/IMG_1141.jpeg"
     ]
   }
 ]
