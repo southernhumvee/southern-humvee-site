@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build — Southern Humvee</title><link rel="stylesheet" href="/assets/styles.css"></head>
+<body>
+<header><div class="container nav"><div class="brand"><a href="/builds/">← Builds</a></div>
+<nav><a href="/">Home</a> <a href="/builds/">Builds</a> <a href="/#contact">Contact</a></nav>
+<a class="btn" href="/#contact">Get a Quote</a></div></header>
+<main class="container section" id="content"></main>
+<script>
+const id = new URLSearchParams(location.search).get('id');
+fetch('/builds/builds.json').then(r=>r.json()).then(items=>items.find(x=>x.id===id)).then(b=>{
+  const c=document.getElementById('content'); if(!b){c.innerHTML='<p>Build not found.</p>';return;}
+  document.title = b.title + ' — Southern Humvee';
+  c.innerHTML = `<section class="hero-detail">
+    <div><h1>${b.title}</h1><div class="muted">${b.year} • ${b.status}</div>
+    <p style="margin-top:8px">${b.summary||''}</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+      <a class="btn" href="tel:+13866286419">Call</a>
+      <a class="btn" href="sms:+13866286419">Text</a>
+      <a class="btn" href="mailto:sales@southernhumvee.com?subject=${encodeURIComponent(b.title)}">Email</a>
+    </div></div>
+    <img src="${b.hero}" alt="${b.title} hero"></section>
+    ${b.gallery?.length?`<section class="gallery">${b.gallery.map(src=>`<img src="${src}" alt="${b.title}">`).join('')}</section>`:''}`;
+});
+</script></body></html>

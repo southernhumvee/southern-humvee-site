@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Builds — Southern Humvee</title><link rel="stylesheet" href="/assets/styles.css"></head>
+<body>
+<header><div class="container nav"><div class="brand"><a href="/">Southern Humvee LLC</a></div>
+<nav><a href="/">Home</a> <a href="/builds/">Builds</a> <a href="/#contact">Contact</a></nav>
+<a class="btn" href="/#contact">Get a Quote</a></div></header>
+<main class="container section"><h1>Builds</h1><div id="grid" class="builds-grid"></div></main>
+<script>
+fetch('/builds/builds.json').then(r=>r.json()).then(items=>{
+  document.getElementById('grid').innerHTML = items.map(b => `
+    <article class="card">
+      <img src="${b.hero}" alt="${b.title}">
+      <div class="card-body"><div class="badge">${b.status}</div>
+      <h3>${b.title}</h3><p class="muted">${b.year} • ${b.summary}</p>
+      <a class="btn" href="/builds/build.html?id=${encodeURIComponent(b.id)}">View build</a></div>
+    </article>`).join('');
+});
+</script></body></html>

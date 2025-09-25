@@ -1,0 +1,39 @@
+[
+  {
+    "id": "digital-camo",
+    "title": "M998 Digital Camo",
+    "year": 1991,
+    "status": "Previous Restoration",
+    "summary": "Digital camo, snorkel, 24V refresh, suspension.",
+    "hero": "/images/services-2.jpeg",
+    "gallery": [
+      "/images/services-2.jpeg",
+      "/images/build1-01.jpeg",
+      "/images/build1-02.jpeg"
+    ]
+  },
+  {
+    "id": "lakeside-green",
+    "title": "Lakeside Green",
+    "year": 1994,
+    "status": "Previous Restoration",
+    "summary": "OEM+ finish with reliability upgrades.",
+    "hero": "/images/hero.jpeg",
+    "gallery": [
+      "/images/hero.jpeg",
+      "/images/services-4.jpeg"
+    ]
+  },
+  {
+    "id": "blackout-4door",
+    "title": "Blackout 4\u2011Door Tactical",
+    "year": 1994,
+    "status": "Previous Restoration",
+    "summary": "Matte tactical finish, recovery points, hardware upgrades.",
+    "hero": "/images/build2-01.jpeg",
+    "gallery": [
+      "/images/build2-01.jpeg",
+      "/images/services-1.jpeg"
+    ]
+  }
+]
