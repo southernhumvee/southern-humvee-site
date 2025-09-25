@@ -1,19 +1,16 @@
 [
   {
     "id": "digital-camo",
-    "title": "M1151 Slant/back Digital Camo",
-    "year": 2009,
+    "title": "M998 Digital Camo",
+    "year": 1991,
     "status": "Previous Restoration",
-    "summary": "Digital camo.",
-    "hero": "/images/IMG_7211.jpeg",
+    "summary": "Digital camo, snorkel, 24V refresh, suspension.",
+    "hero": "/images/services-2.jpeg",
     "gallery": [
-      "/images/IMG_7208.jpeg",
-      "/images/IMG_7206.jpeg",
-      "/images/IMG_7213.jpeg",
-      "/images/IMG_7203.jpeg",
-      "/images/IMG_7174.jpeg",
-      "/images/IMG_7178,jpeg"   
-    ]                         
+      "/images/services-2.jpeg",
+      "/images/build1-01.jpeg",
+      "/images/build1-02.jpeg"
+    ]
   },
   {
     "id": "lakeside-green",
