@@ -16,16 +16,20 @@
     ]
   },
   {
-    "id": "lakeside-green",
-    "title": "Lakeside Green",
-    "year": 1994,
+    "id": "CARC Green",
+    "title": "M1151A1 6.5 turbo Diesel",
+    "year": 2010,
     "status": "Previous Restoration",
-    "summary": "OEM+ finish with reliability upgrades.",
-    "hero": "/images/hero.jpeg",
+    "summary": "OEM+ finish with factory IBIS TEk Knockout Ballistic Windshield.",
+    "hero": "/images/IMG_3445.jpeg",
     "gallery": [
-      "/images/hero.jpeg",
-      "/images/services-4.jpeg"
-    ]
+      "/images/IMG_3442.jpeg",
+      "/images/IMG_3440.jpeg",
+      "/images/IMG_3449.jpeg",
+      "/images/IMG_3454.jpeg",
+      "/images/IMG_3460.jpeg
+      "/images/IMG
+    ] 
   },
   {
     "id": "blackout-4door",
