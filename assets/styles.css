@@ -13,7 +13,7 @@ header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.9);backdrop
   border-bottom:1px solid var(--line)}
 .nav{display:grid;grid-template-columns:auto 1fr auto;align-items:center;height:74px;gap:18px}
 .brand{font-weight:800;letter-spacing:.02em}
-.nav nav{justify-self:center;display:flex;gap:22px}
+.nav nav{justify-self:center;display:flex;gap:30px}
 .nav nav a{color:var(--muted);font-weight:600}.nav nav a:hover{color:var(--text)}
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:10px;
   border:1px solid var(--line);background:#fff;color:var(--text);font-weight:800;text-transform:uppercase;letter-spacing:.02em}
