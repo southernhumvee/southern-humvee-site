@@ -56,5 +56,16 @@
       "/images/IMG_1028.jpeg",
       "/images/IMG_1141.jpeg"
     ]
+  },
+  {
+    "id": "Green",
+    "title": "JLG SkyTrak 6000m",
+    "year": 1992,
+    "status": "Previous Restoration",
+    "summary": "Matte tactical finish.",
+    "hero": "/images/IMG_5771.jpeg",
+    "gallery": [
+      "/images/5774.jpeg"      
+    ]
   }
 ]
